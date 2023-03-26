@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+.sample-balloon {
+  width: 500px;
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.sample-balloon:before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -45px;
+  border: 20px solid transparent;
+  border-top: 20px solid #8f5a0a;
+}
+
+.sample-balloon:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -38px;
+  border: 20px solid transparent;
+  border-top: 20px solid #fad296;
+}
