@@ -116,6 +116,10 @@
   transition: .5s;
 }
 
+.card p {
+  margin-top: 20px;
+}
+
 .card:last-child {
   border-right: 1px solid #000000;
 }
@@ -126,8 +130,9 @@
 }
 
 .icon {
-  background: url() no-repeat center/cover;
+  background: url(file:///Users/yutotamura/Downloads/pexels-carlo-obrien-15360894.jpg) no-repeat center/cover;
   width: 150px;
   height: 150px;
   margin: 0 auto;
+  border-radius: 50%;
 }
