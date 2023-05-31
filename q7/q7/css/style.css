@@ -12,20 +12,20 @@
   margin: 0 auto;
 }
 
-.sample-balloon:before {
-  content: "";
-  position: absolute;
-  left: 30px;
-  bottom: -45px;
-  border: 20px solid transparent;
-  border-top: 20px solid #8f5a0a;
-}
-
+.sample-balloon:before,
 .sample-balloon:after {
   content: "";
   position: absolute;
   left: 30px;
-  bottom: -38px;
   border: 20px solid transparent;
+}
+
+.sample-balloon:before {
+  bottom: -45px;
+  border-top: 20px solid #8f5a0a;
+}
+
+.sample-balloon:after {
+  bottom: -38px;
   border-top: 20px solid #fad296;
 }
